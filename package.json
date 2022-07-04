@@ -8,7 +8,7 @@
   "license": "UNLICENSED",
   "type": "module",
   "scripts": {
-    "serve": "node esbuild.config.js"
+    "start": "node esbuild.config.js"
   },
   "dependencies": {
     "@types/react": "^18.0.14",
@@ -16,6 +16,7 @@
     "autoprefixer": "^10.4.7",
     "esbuild": "^0.14.48",
     "esbuild-postcss": "^0.0.4",
+    "postcss-import": "^14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwindcss": "^3.1.4",
