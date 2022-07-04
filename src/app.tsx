@@ -4,9 +4,9 @@ import ReactDOM from "react-dom";
 
 const App = () => {
   return(<>
-    <h1>Hello World!</h1>
+    <h1 className="underline">Hello World!</h1>
   </>)
 };
 
-const root = createRoot(document.getElementById('root'))
+const root = createRoot(document.getElementById('root')!);
 root.render(<App/>);
